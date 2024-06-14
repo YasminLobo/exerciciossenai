@@ -1,0 +1,29 @@
+/* Yasmin Siqueira Lobo */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e8f5e9; /* Fundo verde claro */
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+}
+
+h1 {
+    color: #28a745; /* Título verde */
+    margin-bottom: 20px;
+}
+
+#map {
+    height: 80vh;
+    width: 100%;
+    border: 3px solid #28a745; /* Borda verde */
+    border-radius: 10px;
+}

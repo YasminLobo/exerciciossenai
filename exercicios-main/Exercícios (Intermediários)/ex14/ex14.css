@@ -1,0 +1,44 @@
+/* Yasmin Siqueira Lobo  */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c6ebc6;
+    margin: 0;
+    padding: 20px;
+}
+
+.filter-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.filter-btn {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.filter-btn:hover {
+    background-color: #218838;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery-item {
+    display: none;
+    width: 200px;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 5px;
+}

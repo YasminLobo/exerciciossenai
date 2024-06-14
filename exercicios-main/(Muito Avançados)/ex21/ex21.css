@@ -1,0 +1,59 @@
+/* Yasmin Siqueira Lobo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e8f5e9; /* Fundo verde claro */
+}
+
+.reservation-container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #28a745;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #28a745; /* Título verde */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #28a745; /* Cor dos labels verde */
+}
+
+input[type="date"], input[type="time"] {
+    border: 2px solid #28a745;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: calc(100% - 24px); /* Para ajustar o padding e a borda */
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#confirmation {
+    margin-top: 20px;
+    color: #28a745; /* Texto da confirmação em verde */
+}
+
